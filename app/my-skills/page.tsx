@@ -27,7 +27,7 @@ const Page = () => {
           </p>
         </div>
         <Swiper
-          slidesPerView={5}
+          slidesPerView={3}
           loop={true}
           autoplay={{
             delay: 0,
@@ -49,12 +49,12 @@ const Page = () => {
           ))}
         </Swiper>
         <Swiper
-          slidesPerView={5}
+          slidesPerView={3}
           loop={true}
           autoplay={{
             delay: 0,
             disableOnInteraction: false,
-            reverseDirection: true
+            reverseDirection: true,
           }}
           speed={5000}
           modules={[Autoplay]}

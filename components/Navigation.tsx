@@ -29,7 +29,7 @@ const Navigation = () => {
   return (
     <div
       style={{ left: "20%" }}
-      className="absolute z-[50] -bottom-20 w-[320px] max-h-[150px] rounded-full flex justify-between items-center border bg-black border-white px-4 py-7"
+      className="fixed z-[50] -bottom-20 w-[320px] max-h-[150px] rounded-t-4xl shadow-lg flex justify-between items-center border bg-white/10 border-white/30 border-opacity-50 px-4 py-7"
     >
       {isRouting && <Transition />}
       {NavLinks.map((nav) => (
