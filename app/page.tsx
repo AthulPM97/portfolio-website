@@ -16,10 +16,8 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-gray-200 md:block">
-            VSCodeVim does not directly load your ~/.vimrc file. However, it
-            provides its own set of configurations that can mimic many common
-            .vimrc settings. You'll need to translate your .vimrc configurations
-            into VS Code settings.
+            Need a sleek portfolio site but no time to build it? I&apos;ll do it for
+            you. Delivered in 3 days. Just ₹499.
           </p>
           <div className="flex-col items-center sm:flex-row flex gap-5">
             <Link
